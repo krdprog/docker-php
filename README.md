@@ -3,8 +3,8 @@
 2. Run commands inside main directory for repository:
 
 ```bash
-docker build -t php-apache
-docker run -p 1234:80 php-apache
+sudo docker build -t php-apache .
+sudo docker run -p 1234:80 php-apache
 ```
 
 3. Open link in browser:
